@@ -1,0 +1,7 @@
+{
+  "name": "MCP_UTS_29584",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
