@@ -8,7 +8,7 @@ import { DISPLAY_DATA } from './Variables';
 
 const Target: React.FC = () => {
     const slidingOptionRef = useRef<HTMLIonItemSlidingElement>(null);
-    
+    let temp = DISPLAY_DATA[0].id;
 
     const heartButtonHandler = () => {
         console.log('Heart Button Pressed...');
@@ -34,7 +34,9 @@ const Target: React.FC = () => {
             <IonContent> 
                 {/* Jika Target Kosong */}
                 {/* <EmptyTarget/> */}
-                { DISPLAY_DATA.map( p => (
+                { temp === 't1' && ( <EmptyTarget/> )}
+
+                { temp !== 't1' && DISPLAY_DATA.map( p => (
                     <IonItemSliding key = { p.id } ref = { slidingOptionRef } class = 'ion-margin-horizontal'>
                         <IonItemOptions  side = 'end'>
                             <IonItemOption key = { p.id } color = 'danger' onClick = { heartButtonHandler } >
