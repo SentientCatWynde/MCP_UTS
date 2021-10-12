@@ -61,7 +61,7 @@ const App: React.FC = () => {
         </IonMenu>
         <IonRouterOutlet id = 'main'>
           {/* <Route path = '/menu'component = { Menus } /> */}
-          <Route path = '/gebetan'  component = { GebetApp } />
+          <Route path = '/gebetan' component = { GebetApp } />
           <Route path = '/target'  component = { Target }   />
           <Route path = '/profile' component = { Profile }  />
           <Route exact path="/" >

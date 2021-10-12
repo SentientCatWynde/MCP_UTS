@@ -6,7 +6,7 @@ export const PERSON_DATA = [
 	{id: 'p5',  name: 'Dito', desc: 'Shitposter', gender: 'male'},
 	{id: 'p6',  name: 'Patro Kallma', desc: 'Looking for a housewife', gender: 'male'},
 	{id: 'p7',  name: 'Irya Norma', desc: 'Follow me on instagram!', gender: 'female'},
-	{id: 'p8',  name: 'Urlo Nirmal', desc: 'Novel Enthusiast?', gender: 'Mr OP Protagonist'},
+	{id: 'p8',  name: 'Urlo Nirmal', desc: 'Novel Enthusiast?', gender: 'Weeb'},
 	{id: 'p9',  name: 'Yretta Querka', desc: 'Local Hunter. Anyone want some game?', gender: 'Apache attack helicopter'},
 	{id: 'p10', name: 'Vral Crith', desc: 'Teacher looking for a date.', gender: 'male'},
 	{id: 'p11', name: 'Erla Hret', desc: 'Reptilian Enthusiast', gender: 'female'},
@@ -15,6 +15,14 @@ export const PERSON_DATA = [
 	{id: 'p14', name: 'Dhavla Lern', desc: 'I own a local dojo. Looking for a relationship.', gender: 'female'},
 	{id: 'p15', name: 'Klea Hatma', desc: 'Drama is my favorite. ', gender: 'female'},
 	{id: 'p16', name: 'Apto Virlm', desc: 'An undergrad teacher looking for a date!', gender: 'male'}
+];
+
+export var TEST_DATA = [
+	{id: 'p99', name: 'a', desc: 'Test data a', gender: 'male'}
+];
+
+export var DISPLAY_DATA = [
+	{id: 't1', name: 'Mike Gunawan', desc: 'Gw org homo', gender: 'male'}
 ];
 
 export const FIRST_USER = [

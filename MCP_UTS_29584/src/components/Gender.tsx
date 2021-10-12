@@ -23,7 +23,7 @@ const Gender: React.FC < { myGender: string } > = props => {
                     </IonThumbnail>
                 </IonItem>
             )}
-            { props.myGender === '?' && (
+            { props.myGender !== 'male' && props.myGender !== 'female' && (
                 <IonItem color = 'primary'>
                     <IonThumbnail>
                         { SOME_GENDER_ICON.map ( ( image, i ) => 
